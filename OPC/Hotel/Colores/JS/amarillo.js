@@ -25,4 +25,9 @@ document.addEventListener("DOMContentLoaded", function(){
             }
         })
     })
+
+    solecito.addEventListener("click", function() {
+        let aviso = "Has decidido tomar el sol y pasarla bien, Hildebrando ha sobrevivido otro día :D";
+        resultado.textContent = aviso;
+    })
 })

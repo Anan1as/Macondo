@@ -17,4 +17,19 @@ document.addEventListener("DOMContentLoaded", function(){
         }
     })
     
+    azul.addEventListener("click", function(){
+        if (restante3 !== null) {
+            location.href = "Colores/azul.html?restante3=" + restante3 + "&contadorDias4=" + contadorDias4;
+        } else if (presupuesto3 !== null) {
+            location.href = "Colores/azul.html?presupuesto3=" + presupuesto3 + "&contadorDias4=" + contadorDias4;
+        }
+    })
+
+    rojo.addEventListener("click", function(){
+        if (restante3 !== null) {
+            location.href = "Colores/rojo.html?restante3=" + restante3 + "&contadorDias4=" + contadorDias4;
+        } else if (presupuesto3 !== null) {
+            location.href = "Colores/rojo.html?presupuesto3=" + presupuesto3 + "&contadorDias4=" + contadorDias4;
+        }
+    })
 })

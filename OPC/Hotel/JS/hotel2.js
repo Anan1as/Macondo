@@ -32,4 +32,12 @@ document.addEventListener("DOMContentLoaded", function(){
             location.href = "Colores/rojo.html?presupuesto3=" + presupuesto3 + "&contadorDias2=" + contadorDias2;
         }
     })
+
+    verde.addEventListener("click", function(){
+        if (restante3 !== null) {
+            location.href = "Colores/verde.html?restante3=" + restante3 + "&contadorDias2=" + contadorDias2;
+        } else if (presupuesto3 !== null) {
+            location.href = "Colores/verde.html?presupuesto3=" + presupuesto3 + "&contadorDias2=" + contadorDias2;
+        }
+    })
 })

@@ -11,11 +11,9 @@ document.addEventListener("DOMContentLoaded", function(){
 
     amarillo.addEventListener("click", function() {
         if (restante3 !== null) {
-            let contadorDias5 = contadorDias4 - 0;
-            location.href = "Colores/amarillo.html?restante3=" + restante3 + "&contadorDias=" + contadorDias5;
+            location.href = "Colores/amarillo.html?restante3=" + restante3 + "&contadorDias4=" + contadorDias4;
         } else if (presupuesto3 !== null) {
-            let contadorDias5 = contadorDias4 - 0;
-            location.href = "Colores/amarillo.html?presupuesto3=" + presupuesto3 + "&contadorDias=" + contadorDias5;
+            location.href = "Colores/amarillo.html?presupuesto3=" + presupuesto3 + "&contadorDias4=" + contadorDias4;
         }
     })
     

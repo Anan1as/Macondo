@@ -11,12 +11,33 @@ document.addEventListener("DOMContentLoaded", function(){
 
     amarillo.addEventListener("click", function() {
         if (restante3 !== null) {
-            let contadorDias3 = contadorDias2 - 0;
-            location.href = "Colores/amarillo.html?restante3=" + restante3 + "&contadorDias=" + contadorDias3;
+            location.href = "Colores/amarillo.html?restante3=" + restante3 + "&contadorDias2=" + contadorDias2;
         } else if (presupuesto3 !== null) {
-            let contadorDias3 = contadorDias2 - 0;
-            location.href = "Colores/amarillo.html?presupuesto3=" + presupuesto3 + "&contadorDias=" + contadorDias3;
+            location.href = "Colores/amarillo.html?presupuesto3=" + presupuesto3 + "&contadorDias2=" + contadorDias2;
         }
     })
     
+    azul.addEventListener("click", function(){
+        if (restante3 !== null) {
+            location.href = "Colores/azul.html?restante3=" + restante3 + "&contadorDias2=" + contadorDias2;
+        } else if (presupuesto3 !== null) {
+            location.href = "Colores/azul.html?presupuesto3=" + presupuesto3 + "&contadorDias2=" + contadorDias2;
+        }
+    })
+
+    rojo.addEventListener("click", function(){
+        if (restante3 !== null) {
+            location.href = "Colores/rojo.html?restante3=" + restante3 + "&contadorDias2=" + contadorDias2;
+        } else if (presupuesto3 !== null) {
+            location.href = "Colores/rojo.html?presupuesto3=" + presupuesto3 + "&contadorDias2=" + contadorDias2;
+        }
+    })
+
+    verde.addEventListener("click", function(){
+        if (restante3 !== null) {
+            location.href = "Colores/verde.html?restante3=" + restante3 + "&contadorDias2=" + contadorDias2;
+        } else if (presupuesto3 !== null) {
+            location.href = "Colores/verde.html?presupuesto3=" + presupuesto3 + "&contadorDias2=" + contadorDias2;
+        }
+    })
 })

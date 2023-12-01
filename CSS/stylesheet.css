@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px 5px 5px 5px;
+}
+
+div {
+    margin: 10px 10px 10px 10px;
+}
+
+button{
+    padding: 10px 80px;
+    margin: 5px;
+}
+
+#amarillo {
+    background-color: yellow;
+}
+
+#azul {
+    background-color: blue;
+}
+
+#rojo {
+    background-color: brown;
+}
+
+#verde {
+    background-color: darkgreen;
+}
